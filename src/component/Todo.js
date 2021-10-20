@@ -5,7 +5,7 @@ import '../app.css';
 
 const ToDo = (props) => {
     return (
-        <div>
+        <div class ="todo-zone">
             <div id = {props.id}>
                 <span id = "todo-text" >{`${props.todo} `  }</span>
                 <DoneBtn />

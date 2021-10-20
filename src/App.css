@@ -17,8 +17,13 @@
     margin-bottom: 50px;
 }
 
+.todo-zone {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #todo-text {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'NEXON Lv1 Gothic OTF';
 }
 
