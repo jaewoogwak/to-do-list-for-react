@@ -1,2 +1,2 @@
 # to do list for react study
-jaewoogwak.github.io/to-do-list-for-react/
+## https://jaewoogwak.github.io/to-do-list-for-react/
