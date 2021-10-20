@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import '../app.css';
 class InputBox extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +7,7 @@ class InputBox extends React.Component {
             text: ''
         }
     }
+    
     handleChange = (e) => {
         if (window.event.keyCode == 13) {
             this.setState({
@@ -34,7 +34,7 @@ class InputBox extends React.Component {
     render() {
         return (
             <div>
-                <input
+                <input className ="inputBox"
                     type="search"
                     placeholder="input to do!"
                     onKeyDown={this.handleChange}
